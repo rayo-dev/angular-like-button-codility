@@ -1,0 +1,8 @@
+<button
+  type="button"
+  class="like-button"
+  [ngClass]="setButtonClasses()"
+  (click)="likeTheButton()"
+>
+  Like | <span class="likes-counter">{{ counter }}</span>
+</button>
